@@ -23,28 +23,32 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 puts "Is the number_teachers less than number_students?", number_teachers < number_students
-# this should print: true
+# this should print: "Is the number_teachers less than number_students?" true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 puts "Is number_teachers equal to string_teachers?", number_teachers == 
 string_teachers
-# this should print: false
+# this should print: "Is number_teachers equal to string_teachers?" false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 puts "Is number_teachers not equal to number_students?", number_teachers != number_students
-# this should print: true
+# this should print: "Is number_teachers not equal to number_students?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-# this should print: true
+puts "Is number_students greater than or equal to 20?", number_students >= 20
+# this should print: "Is number_students greater than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-# this should print: false
+puts "Is number_students greater than or equal to 21?", number_students >= 21
+# this should print: "Is number_students greater than or equal to 21?" false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-# this should print: true
+puts "Is number_students less than or equal to 20?", number_students <= 20
+# this should print: "Is number_students less than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-# this should print: true
+puts "Is number_students less than or equal to 21?", number_students <= 21
+# this should print: "Is number_students less than or equal to 21?" true
 
 
 #-------------------
