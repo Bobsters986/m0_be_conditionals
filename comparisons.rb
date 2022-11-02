@@ -62,21 +62,27 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+this line of code is asking "Is interger 4 less than interger 9?", which will evaluate as true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+the code establishes the variable books as equal to interger 3
+the code is asking "Is the interger 4 less than the variable books?", which will evaluate as false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+the code establishes two variables, friends as equal to interger 6, and siblings as equal to interger 2.
+the code is asking "Is variable friends greater than variable siblings?", which will evaluate as true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+the code establishes two variables, attendees as equal to interger 9, and meals as equal to interger 8
+the code is stating "The variable attendees is not equal to variable meals", which will evaluate as true.
 
 #-------------------
 # PART 3: Logical Operators
