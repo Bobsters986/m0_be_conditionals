@@ -93,9 +93,9 @@ finished_homework = false
 
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
-puts is_hungry && finished_homework
+puts is_hungry && finished_homework, false
 # Determine if the user is hungry or has completed their homework
-puts is_hungry || finished_homework
+puts is_hungry || finished_homework, true
 
 loves_to_play = true
 loves_dog_park = false
@@ -104,15 +104,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats, true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park, false
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park, true
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age == 1, true
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: true, because the age of the dog is 1, which is the appropriate age for a puppy
