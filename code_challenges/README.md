@@ -2,6 +2,7 @@
 
 Below are 3 code challenges, increasing in complexity. You are required to complete 1 (of your choice) and encouraged to complete 2. If you are ahead on your schedule and have the time, you can absolutely complete all 3! For each challenge you want to work on, create a new Ruby file inside this `code_challenges` directory and choose a name that makes sense.
 
+
 After completing your selected challenge(s), create a short video to share with your Slack small group as part of your deliverable for this lesson. In your video, please:
 - Introduce the challenge
 - Demonstrate how to live-code the solution
