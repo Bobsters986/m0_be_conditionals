@@ -45,7 +45,7 @@ num_quarters = 2
 
 if num_quarters >= 2
  p "I have enough money for a gumball"
-elsif num_quarters < 2
+else
   p "I don't have enough money for a gumball"
 end
 
@@ -69,7 +69,7 @@ has_sauce = true
 
 if cups_of_flour >= 2 && has_sauce == true 
   p "I can make pizza"
-else cups_of_flour <= 2 || has_sauce == false
+else
   p "I cannot make pizza"
   
 end
